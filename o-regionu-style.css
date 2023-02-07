@@ -1,0 +1,47 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	background-color: #ebe2d7;
+}
+
+/*---CONTAINERS---*/
+#container {
+	width: 1020px;
+	margin: 0px auto;
+}
+
+/*---MAIN-IMG---*/
+
+/*---NAVBAR---*/
+nav {
+	width: 1020px;
+	height: 60px;
+	background-color: rgba(56, 88, 99, 0.85);
+	border-radius: 20px;
+	position: relative;
+	top: -1004px;
+}
+nav ul li{
+	list-style-type: none;
+	float: left;
+	width: 170px;
+	text-align: center;
+	margin-top: 17px;
+	font-size: 22px;
+}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+nav ul li a h1 {
+	position: relative;
+	left: -36px;
+	margin-top: 0px;
+	font-size: 22px;
+}
+#bar-to-right {
+	position: absolute;
+	right: 0px;
+	margin: 0px;
+}
