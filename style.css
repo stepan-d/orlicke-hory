@@ -14,6 +14,12 @@ header {
 main {
 	margin-top: 60px;
 }
+/*---BACKGROUND---*/
+#background{
+	position: absolute;
+	width: 1440px;
+	height: 3000px;
+}
 
 /*---CONTAINERS---*/
 #container {
@@ -30,10 +36,10 @@ video {
 nav {
 	width: 1020px;
 	height: 60px;
-	background-color: rgba(56, 88, 99, 0.85);
+	background-color: #385863d9;
 	border-radius: 20px;
 	position: relative;
-	top: -960px;
+	top: -950px;
 }
 nav ul li{
 	list-style-type: none;
@@ -69,7 +75,7 @@ nav ul li a h1 {
 	font-size: 90px;
 }
 #btn-vice {
-	background-color: rgba(56, 88, 99, 0.85);
+	background-color: #385863d9;
 	width: 230px;
 	margin: 0 auto;
 	padding: 15px 25px;
@@ -142,7 +148,7 @@ main p {
 
 /*---DESTNE---*/
 #b-destne {
-	background-color: rgba(56, 88, 99, 0.85);
+	background-color: #385863b3;
 	border-radius: 50px 0px;
 	width: 313px;
 	height: 580px;
@@ -153,7 +159,7 @@ main p {
 
 /*---RICKY---*/
 #b-ricky {
-	background-color: rgba(56, 88, 99, 0.85);
+	background-color: #385863b3;
 	border-radius: 50px 0px;
 	width: 313px;
 	height: 580px;
@@ -164,7 +170,7 @@ main p {
 
 /*---ROKYTNICE---*/
 #b-rokytnice {
-	background-color: rgba(56, 88, 99, 0.85);
+	background-color: #385863b3;
 	border-radius: 50px 0px;
 	width: 313px;
 	height: 580px;
@@ -174,7 +180,7 @@ main p {
 
 /*---FOOTER---*/
 footer {
-	background-color: rgba(56, 88, 99, 0.85);
+	background-color: #385863b3;
 	top: 120px;
 	color: white;
 	text-align: left;

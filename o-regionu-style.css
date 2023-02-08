@@ -10,7 +10,6 @@ html, body {
 	width: 1020px;
 	margin: 0px auto;
 }
-
 /*---MAIN-IMG---*/
 
 /*---NAVBAR---*/
@@ -20,7 +19,7 @@ nav {
 	background-color: rgba(56, 88, 99, 0.85);
 	border-radius: 20px;
 	position: relative;
-	top: -1004px;
+	top: -1018px;
 }
 nav ul li{
 	list-style-type: none;
@@ -42,6 +41,6 @@ nav ul li a h1 {
 }
 #bar-to-right {
 	position: absolute;
-	right: 0px;
+	right: -14px;
 	margin: 0px;
 }
