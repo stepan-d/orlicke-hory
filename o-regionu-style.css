@@ -5,21 +5,35 @@ html, body {
 	background-color: #ebe2d7;
 }
 
+header {
+	float: left;
+	height: 0px;
+	top: -20px;
+	height: 900PX;
+}
+main {
+	margin-top: 60px;
+}
+
 /*---CONTAINERS---*/
 #container {
 	width: 1020px;
 	margin: 0px auto;
 }
-/*---MAIN-IMG---*/
+video {
+	display: block;
+	position: relative;
+	top: -60px;
+}
 
 /*---NAVBAR---*/
 nav {
 	width: 1020px;
 	height: 60px;
-	background-color: rgba(56, 88, 99, 0.85);
+	background-color: #385863d9;
 	border-radius: 20px;
 	position: relative;
-	top: -1018px;
+	top: -950px;
 }
 nav ul li{
 	list-style-type: none;
@@ -27,11 +41,12 @@ nav ul li{
 	width: 170px;
 	text-align: center;
 	margin-top: 17px;
-	font-size: 22px;
+
 }
 nav ul li a {
 	color: white;
 	text-decoration: none;
+	font-size: 22px;
 }
 nav ul li a h1 {
 	position: relative;
@@ -43,4 +58,46 @@ nav ul li a h1 {
 	position: absolute;
 	right: -14px;
 	margin: 0px;
+}
+
+/*---HEADER-TEXT+BUTTON---*/
+#slogan {
+	text-align: center;
+	position: relative;
+	top: -775px;
+	color: white;
+	font-size: 90px;
+}
+#btn-vice {
+	background-color: #385863d9;
+	width: 230px;
+	margin: 0 auto;
+	padding: 15px 25px;
+	border-radius: 30px;
+	text-align: center;
+	position: relative;
+	top: -830px;
+	color: white;
+	font-size: 22px;
+}
+/*---FOOTER---*/
+footer {
+	background-color: #385863b3;
+	top: 120px;
+	color: white;
+	text-align: left;
+	margin-top: 100px;
+}
+footer p {
+	font-size: 22px;
+	padding: 30px 0px;
+	margin-bottom: 0px;
+}
+
+
+/*---CLEARFIX:AFTER---*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }

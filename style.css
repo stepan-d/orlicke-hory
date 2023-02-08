@@ -14,12 +14,6 @@ header {
 main {
 	margin-top: 60px;
 }
-/*---BACKGROUND---*/
-#background{
-	position: absolute;
-	width: 1440px;
-	height: 3000px;
-}
 
 /*---CONTAINERS---*/
 #container {
