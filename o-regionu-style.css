@@ -20,10 +20,11 @@ main {
 	width: 1020px;
 	margin: 0px auto;
 }
-video {
+#main-img {
 	display: block;
 	position: relative;
 	top: -60px;
+	
 }
 
 /*---NAVBAR---*/
@@ -66,7 +67,7 @@ nav ul li a h1 {
 	position: relative;
 	top: -775px;
 	color: white;
-	font-size: 90px;
+	font-size: 70px;
 }
 #btn-vice {
 	background-color: #385863d9;
