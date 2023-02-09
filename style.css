@@ -16,7 +16,7 @@ main {
 }
 
 /*---CONTAINERS---*/
-#container {
+.container {
 	width: 1020px;
 	margin: 0px auto;
 }
