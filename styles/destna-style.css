@@ -1,5 +1,6 @@
 html, body {
 	margin: 0px;
+    margin-top: -30px;
 	padding: 0px;
 	box-sizing: border-box;
 	background-color: #ebe2d7;
@@ -9,13 +10,13 @@ header {
 	float: left;
 	height: 0px;
 	top: -20px;
-	height: 900PX;
 }
 main {
-	margin-top: 60px;
+    height: 2000px;
 }
 img {
-	border-radius: 15px;
+    display: block;
+	border-radius: 10px;
 }
 .mezera {
 	display: block;
@@ -25,14 +26,7 @@ img {
 /*---CONTAINERS---*/
 .container {
 	width: 1020px;
-	margin: 0px auto;
-}
-#main-img {
-	display: block;
-	position: relative;
-	top: -60px;
-	margin: 0px auto;
-	border-radius: 0px;	
+	margin: 0px 210px;
 }
 
 /*---NAVBAR---*/
@@ -42,7 +36,7 @@ nav {
 	background-color: #385863d9;
 	border-radius: 20px;
 	position: relative;
-	top: -950px;
+	top: 10px;
 }
 nav ul li{
 	list-style-type: none;
@@ -69,16 +63,25 @@ nav ul li a h1 {
 	margin: 0px;
 }
 
-/*---HEADER-TEXT---*/
-#slogan {
-	text-align: center;
-	position: relative;
-	top: -675px;
-	color: white;
-	font-size: 80px;
+/* main */
+main h1 {
+    font-size: 82px;
+    margin: -20px auto;
+}
+main h2 {
+    font-size: 42px;
+    margin: 30px auto 10px auto;
+}
+main p {
+    font-size: 24px;
+    margin: 20px auto 40px auto;
+}
+.posun {
+    position: relative;
+    top: 150px;
 }
 
-/*---FOOTER---*/
+---FOOTER---
 footer {
 	background-color: #385863b3;
 	top: 120px;
